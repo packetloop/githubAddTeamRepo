@@ -12,6 +12,7 @@ dep:
 	go get github.com/mitchellh/gox
 	go get github.com/golang/dep/cmd/dep
 	go get github.com/goreleaser/goreleaser
+	go get github.com/joeshaw/envdecode
 
 .PHONY: env
 env:
