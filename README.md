@@ -14,10 +14,10 @@ Download this provider, pick a version you'd like from releases from
 [Binary Releases](https://github.com/packetloop/githubAddTeamRepo/releases)
 
 ```bash
-curl -L \$
+curl -L \
    https://github.com/packetloop/githubAddTeamRepo/releases/download/v0.1.0/githubAddTeamRepo_v0.1.0_Darwin_x86_64 \
    -o /tmp/githubAddTeamRepo && \
-   chmod +x ~/.terraform.d/plugins/githubAddTeamRepo
+   chmod +x /tmp/githubAddTeamRepo
 
 ORG=<GITHUB_ORG> TEAM=<GITHUB_TEAM> GITHUB_TOKEN=<GITHUB_TOKEN> /tmp/githubAddTeamRepo
 ```
