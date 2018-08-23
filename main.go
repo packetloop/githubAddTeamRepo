@@ -21,8 +21,8 @@ type meta struct {
 
 type config struct {
 	GithubToken string `env:"GITHUB_TOKEN,required"`
-	Team        string `env:"TEAM",required`
-	Org         string `env:"ORG",required`
+	Team        string `env:"TEAM,required"`
+	Org         string `env:"ORG,required"`
 }
 
 func main() {
